@@ -34,7 +34,7 @@ gulp.task('clean', function(cb) {
 });
 
 gulp.task('scripts', ['clean'], function() {
-  return gulp.src(['src/itvalidate.js'])
+  gulp.src(['src/itvalidate.js'])
     .pipe(plumber({
       errorHandler: handleError
     }))
@@ -46,9 +46,8 @@ gulp.task('scripts', ['clean'], function() {
     }))
     .pipe(gulp.dest('dist'))
     .pipe(uglify({preserveComments: 'some'}))
-    .pipe(rename({ext:'.min.js'}))
+    .pipe(rename('itvalidate.min.js'))
     .pipe(gulp.dest('dist'));
-
 });
 
 gulp.task('karma', ['build'], function() {
