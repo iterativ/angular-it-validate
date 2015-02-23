@@ -1,0 +1,36 @@
+{
+  "name": "*",
+  "description": "Angular directives to help with validation",
+  "main": "dist/itvalidate.js",
+  "author": "Daniel Egger <daniel.egger@iterativ.ch>",
+  "homepage": "https://github.com/iterativ/angular-it-validate.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iterativ/angular-it-validate.git"
+  },
+  "version": "0.0.1",
+  "devDependencies": {
+    "bower": "~1.3",
+    "del": "~1.1.1",
+    "gulp": "~3.8.11",
+    "gulp-header": "~1.2.2",
+    "gulp-jshint": "1.9.2",
+    "gulp-plumber": "^0.6.6",
+    "gulp-rename": "~1.2.0",
+    "gulp-uglify": "~1.1.0",
+    "gulp-util": "^3.0.3",
+    "jshint-stylish": "~1.0.0",
+    "karma": "^0.12.31",
+    "karma-chrome-launcher": "^0.1.7",
+    "karma-firefox-launcher": "~0.1",
+    "karma-jasmine": "~0.3",
+    "karma-ng-html2js-preprocessor": "^0.1.2",
+    "karma-phantomjs-launcher": "~0.1.4",
+    "karma-coverage": "~0.2"
+  },
+  "scripts": {
+    "postinstall": "bower install",
+    "test": "gulp test"
+  },
+  "license": "MIT"
+}
