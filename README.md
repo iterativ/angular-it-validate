@@ -1,8 +1,6 @@
-# AngularJS it-validate 
+# AngularJS it-validate [![Build Status](https://travis-ci.org/iterativ/angular-it-validate.svg?branch=master)](https://travis-ci.org/iterativ/angular-it-validate)
 
 AngularJS helper directives for validation
-
-trigger travis.ci
 
 
 ## Features
